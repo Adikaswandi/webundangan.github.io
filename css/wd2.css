@@ -1,0 +1,380 @@
+*{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* NAVBAR */
+header nav ul li a i {
+    color: violet;
+}
+/* END NAVBAR */
+
+
+
+
+
+
+
+/* hero */
+#hero .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 85vh;
+    padding-top: 40px;
+}
+
+.hero-container h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
+.hero-container h2 {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    z-index: 10;
+}
+
+.hero-container h3 {
+    font-family: 'Stalemate', cursive;
+    font-size: 70px;
+}
+
+.hero-container span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+/* end hero */
+
+
+
+
+
+
+
+/* ornamen hero*/
+
+.hero-container .ornamen2 .or1 {
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    width: 180px;
+    top: 33%;
+    left: 24%;
+}
+
+.hero-container .ornamen2 .or2 {
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    width: 180px;
+    top: 33%;
+    right: 24%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@media screen and (max-width: 992px) {
+    .hero-container .ornamen2 .or1 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 150px;
+        top: 35%;
+        left: 8%;
+    }
+
+    .hero-container .ornamen2 .or2 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 150px;
+        top: 35%;
+        right: 8%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-container .ornamen2 .or1 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 150px;
+        top: 35%;
+        left: 8%;
+    }
+
+    .hero-container .ornamen2 .or2 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 150px;
+        top: 35%;
+        right: 8%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-container .ornamen2 .or1 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 110px;
+        top: 40%;
+        left: 8px;
+    }
+
+    .hero-container .ornamen2 .or2 {
+        position: absolute;
+        display: table-cell;
+        vertical-align: middle;
+        width: 110px;
+        top: 40%;
+        right: 8px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+/* END ORNAMEN HERO*/
+
+
+
+
+
+
+/* ucapan pembuka */
+.container .pembuka h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    padding-top: 8%;
+}
+
+.container .pembuka p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+@media screen and (min-width: 769px) {
+    .container .pembuka .ornamen3 .or1 {
+        position: relative;
+        top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .pembuka .ornamen3 .or1 {
+        position: absolute;
+        top: 680px;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container .pembuka .ornamen3 .or1 {
+        position: relative;
+        top: 10px;
+        left: 6px;
+    }
+}
+/* end ucapan pembuka */
+
+
+
+
+
+
+
+/* mempelai */
+.container .judul_mpl h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+.container .judul_mpl p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container .row .col .card {
+margin: 15px;}
+
+@media screen and (min-width: 769px) {
+    .container .card .card-body img {
+        width: 300px;
+        border-radius: 50%;
+        margin-bottom: 70px;
+        margin-top: 3px;
+    }
+
+    .container .ornamen4 .or2 {
+        position: absolute;
+        top: 0.1px;
+        left: 118px;
+        width: 342px;
+    }
+
+    .container .card .card-body h5 {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: blueviolet;
+    }
+
+    .container .card .card-body span {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .card .card-body img {
+        width: 300px;
+        border-radius: 50%;
+        margin-bottom: 70px;
+        margin-top: 3px;
+    }
+
+    .container .ornamen4 .or2 {
+        position: absolute;
+        top: 0.1px;
+        left: 58px;
+        width: 342px;
+    }
+
+    .container .card .card-body h5 {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: blueviolet;
+    }
+
+    .container .card .card-body span {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    .container .row .or_bwh {
+        position: relative;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container .card .card-body img {
+        width: 300px;
+        border-radius: 50%;
+        margin-bottom: 70px;
+        margin-top: 3px;
+    }
+
+    .container .ornamen4 .or2 {
+        position: absolute;
+        top: 0.1px;
+        left: 59px;
+        width: 342px;
+    }
+
+    .container .card .card-body h5 {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: blueviolet;
+    }
+
+    .container .card .card-body span {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
+
+/* end mempelai*/
+
+
+
+
+
+/* hari H */
+.container .row .date .ornamen5 .or1 {
+    margin-top: 30px;
+    width: 50px;
+}
+
+.container .row .date h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+.container .row .date h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.container .row .date span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .row .date p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .row .sekian p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container .row .sekian span {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+/* end hari H */
+
+
+
+
+
+
+
+
+
+
+/* galery */
+.container .row .galery{
+    width: 300px;
+    border: 1px solid black;
+}
+
+.container .row {
+    margin-bottom: 20%;
+}
+
+
+/* end galery */
+
+
+
+
+
+/* footer */
+footer .container {
+    margin-bottom: 20%;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+footer .container .col h1 {
+    font-size: 20px;
+    /* text-align: center; */
+    font-weight: bold;
+}
